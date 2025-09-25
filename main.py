@@ -163,14 +163,3 @@ def delete_patient(p_id:str=Path(...,description="Enter id of patient to be dele
 
 
 
-"""
-********************** All routes *****************
-@app.get("/")
-@app.post('/create')
-@app.get('/patient/{p_id}')
-@app.get("/sort/{sort_by}/{order}")
-@app.get("/sort") ## query parameter  localhost/sort?sort_by=height&order=desc
-@app.put("/update/{p_id}")
-@app.delete("/delete/{p_id}")
-
-"""
