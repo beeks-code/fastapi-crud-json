@@ -10,4 +10,4 @@ It demonstrates how to build a CRUD (Create, Read, Update, Delete) application w
 - View all patients or a specific patient
 - Sort patient records by custom fields
 - Update patient details
-- Delete patients
+- Delete patients   
